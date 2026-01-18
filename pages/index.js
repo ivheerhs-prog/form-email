@@ -1,5 +1,7 @@
+"use client";
+
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 emailjs.init("Gz0HeyqDS9TgWAJHa");
 export default function Home() {
   const [name, setName] = useState("");
